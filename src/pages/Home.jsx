@@ -7,7 +7,6 @@ export default function Home(){usePageIn();const{openModal}=useOutletContext();
   <section className="relative h-[520px] md:h-[600px] overflow-hidden bg-char text-white">
    <Img src="/images/hero-cement.jpg" alt="Construction site" className="kb absolute inset-0 w-full h-full"/><div className="absolute inset-0 bg-gradient-to-r from-char/90 via-char/55 to-transparent"/>
    <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
-    <span className="hs self-start bg-sun text-char text-xs font-bold tracking-wider uppercase px-2.5 py-1 rounded-sm">Rewa, Madhya Pradesh</span>
     <h1 className="hs text-4xl md:text-6xl mt-4 max-w-2xl leading-[1.05]">Build strong. Build better.</h1>
     <p className="hs mt-4 text-white/85 max-w-lg">Cement, TMT steel, sand, gitti, bricks and more for your home, site or project. Ask for today's price.</p>
     <div className="hs mt-7 flex flex-wrap gap-3"><Link to="/shop" className="btn bg-brick text-white hover:bg-brick-dark">Explore Materials<ArrowRight size={16}/></Link>
