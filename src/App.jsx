@@ -12,3 +12,5 @@ export default function App(){return <Routes><Route element={<Layout/>}>
  <Route path="/about" element={<About/>}/><Route path="/contact" element={<Contact/>}/>
  <Route path="*" element={<div className="pt-40 pb-32 text-center"><h1 className="text-4xl">Page not found</h1><a href="/" className="text-brick font-semibold mt-4 inline-block">Go home</a></div>}/>
 </Route></Routes>}
+
+// next updates here 
